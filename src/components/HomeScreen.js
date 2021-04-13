@@ -16,7 +16,7 @@ const HomeScreen = () => {
     async function fetchData() {
       const {
         data: { reciters },
-      } = await axios.get(`http://mp3quran.net/api/_english.php`)
+      } = await axios.get(`https://mp3quran.net/api/_english.php`)
 
       serReciters(reciters)
     }
