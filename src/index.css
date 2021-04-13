@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #cac3c3;
+  overflow: hidden;
+}
+.home-body {
+  height: 100vh;
+}
+.bg-red {
+  background-color: #f7656a;
+  color: #fff;
+}
+audio {
+  width: 100%;
+  outline: none;
+}
+
+.scroll {
+  height: 100%;
+  overflow: auto;
+}
+.curser {
+  cursor: pointer;
+}
+.active {
+  color: yellow !important;
+}
